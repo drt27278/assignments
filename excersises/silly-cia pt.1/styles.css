@@ -1,0 +1,41 @@
+img {
+    width: 15%;
+    height: auto;
+}
+div {
+    line-height: 10px;
+}
+div2 {
+    line-height: 3;
+
+}
+
+h1 {
+    color: green;
+    font-family: georgia;
+    text-align: center;
+}
+
+h2 { 
+    font-family: Georgia;
+    text-align: center;
+
+}
+
+p {
+    line-height: 25px;
+    
+}
+
+a {
+    text-decoration: none;
+    line-height: 30px;
+}
+a.hover {
+    text-decoration: underline;
+
+}
+
+div5 {
+    line-height: 60px;
+}
