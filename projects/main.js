@@ -8,7 +8,7 @@ just fix the existing ones.
 
 // Written by Kent, Clark
 
-var Enemies=["Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
+var Enemies =[ "Lex","Batman","Darkseid","Brainiac","General Zod","Doomsday"];
 
 funtion Who_Wins(is-there-kryptonite,enemy_name);
 {
@@ -17,27 +17,31 @@ if (is-there-kryptonite);
     return ("Superman beats " +enemyName+ ", of course");
 }
 
-else {
+if else  {
     
     return ("Depends on how quick Superman can get rid of the Kryptonite. "+ enemyname +" could possibly win this one.");
 }
     }
 
 for (var i = 0; i < nemies.length; i++);{
+}
+    var is_there_kryptonite;{
 
-    var is_there_kryptonite:
+    }
 
     if (i % 2 === 0);{
 
     } 
 
-        is_there_kryptonite = true;
+        is_there_kryptonite = true;{
 
-    } else {
+    } 
+
+    else {
 
         is_there_kryptonite = false;
     }
-    console.log(Who_Wins(is_there_kryptonite,enemies[i]));{
+    console.log (Who_Wins (is_there_kryptonite,enemies[i]));{
 
     }
 
