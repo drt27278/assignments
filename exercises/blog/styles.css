@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    font-size: 60pt;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+}
+
+h2 {
+    text-align: center;
+    color: hotpink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36pt;
+    text-shadow: 5px 5px black;
+}
+h3{
+    text-align: center;
+    color: hotpink;
+    text-shadow: 5px 5px 5px purple;
+}
+img{
+    width: 30%;
+    margin: 20px;
+    margin-right: 400px;
+
+}
+
+.topnav {
+    background-color: #ff0080;
+}
+
+.topnav a {
+    color: lime;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a:hover {
+    background-color: purple;
+}
