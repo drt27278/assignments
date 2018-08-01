@@ -1,0 +1,95 @@
+*{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Monoton',cursive;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+nav{
+    display: flex;
+    font-family: 'Monoton',cursive;
+   
+}
+nav a{
+    margin: 5px;
+    color: #b701ff;
+}
+a:hover{
+    color: hotpink;
+}
+h2{
+    color: #b701ff;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+#halloween{
+    width:250px;
+   
+}
+#thing{
+    width: 250px;
+  
+}
+#howling{
+    width: 245px;
+  
+}
+#evildead{
+    width: 240px;
+   
+}
+
+#imagecontainerr{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px){
+
+    #imagecontainerr{
+        flex-direction: column;
+        
+     
+    }
+    #halloween{
+       margin: 5px 5px;
+       
+    }
+    #thing{
+       margin: 5px 5px;
+      
+    }
+    #howling{
+       margin: 5px 5px;
+      
+    }
+    #evildead{
+       margin: 5px 5px;
+       
+    }
+
+}
+@media only screen and (max-width: 1100px){
+
+    h1{
+        text-align: center;
+        font-size: 100px;
+       
+    }
+    
+
+
+}

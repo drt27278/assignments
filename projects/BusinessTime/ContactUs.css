@@ -1,0 +1,29 @@
+*{
+    background-color: black;
+}
+
+h1{
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Monoton',cursive;
+    color: #fff;
+    text-shadow:  0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    
+}
+h2{
+    color: hotpink;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    font-family: 'Monoton',cursive;
+   
+}
+nav a{
+    margin: 5px;
+    color: #b701ff;
+}
+a:hover{
+    color: hotpink;
+}
