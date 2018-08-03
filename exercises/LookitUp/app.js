@@ -1,12 +1,11 @@
 var dictionary = {};
 
-function addEntry(word, definition){
-
-   dictionary[word] = definition;
+function addEntry(word, definition) {
+    dictionary[word] = definition;
 
 }
 
-function lookUpKey(key){
+function lookUpKey(key) {
     console.log(key + '-' + dictionary[key]);
 
 }
@@ -20,11 +19,10 @@ addEntry('Oxymoron', 'contradictory term in a conjunction');
 
 addEntry('Flabbergasted', 'greatly astonished');
 
+
 console.log(dictionary);
 
 lookUpKey('Pun');
 lookUpKey('Happy');
 lookUpKey('Oxymoron');
 lookUpKey('Flabbergasted');
-
-
