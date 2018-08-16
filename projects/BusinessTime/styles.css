@@ -10,7 +10,6 @@ nav{
 }
 h1{
     text-align: center;
-    text-decoration: underline;
     font-size: 100px;
     font-family: 'Monoton', cursive;
     color: #fff;
@@ -60,10 +59,11 @@ nav a{
 }
 
 p{
-    color: bisque;
+    color: darkred;
     text-align: center;
     font-size: 50px;
     font-family: 'creepster', cursive;
+    text-decoration: underline;
 }
 @media only screen and (max-width: 1400px){
     #imagecontainer{

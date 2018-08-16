@@ -12,18 +12,8 @@ h2 {
     color: hotpink;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 36pt;
-    text-shadow: 5px 5px black;
-}
-h3{
-    text-align: center;
-    color: hotpink;
-    text-shadow: 5px 5px 5px purple;
-}
-img{
-    width: 30%;
-    margin: 20px;
-    margin-right: 400px;
-
+    text-shadow: 5px 5px 5px gray;
+    text-decoration: underline;
 }
 
 .topnav {
@@ -37,4 +27,35 @@ img{
 
 a:hover {
     background-color: purple;
+}
+body{
+    background-color: black;
+}
+
+img{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+
+}
+
+p{
+    color: white;
+    text-align: center;
+   
+}
+.hereditary{
+    color:#ff0080;
+    text-align: center;
+    text-decoration: underline;
+
+}.slenderman{
+    color: #ff0080;
+    text-align: center;
+}
+.revenge{
+    color:#ff0080;
+    text-align: center;
 }
